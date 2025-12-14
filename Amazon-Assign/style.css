@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #eaeded; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #939496;
+    padding: 10px 20px;
+    color: white;
+    height: 100px;
+}
+
+.nav .logo img {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-logo border"></a>
+            <div class="nav-address border">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="address-text">
+                    <p class="add-first">Deliver to</p>
+                    <p class="add-second">Pakistan</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-fill">
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Books</option>
+                    <option>Home & Kitchen</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-language border">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Pakistan Flag" class="flag-icon">
+                <select class="language-select">
+                    <option>EN</option>
+                    <option>UR</option>
+                </select>
+            </div>
+            <a href="#" class="nav-signin border">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </a>
+            <a href="#" class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </a>
+            <a href="#" class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </a>
+        </div>
+    </header>
+
+    <div class="panel">
+        <a href="#" class="panel-all border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </a>
+        <div class="panel-ops">
+            <a href="#" class="border">Today's Deals</a>
+            <a href="#" class="border">Customer Service</a>
+            <a href="#" class="border">Registry</a>
+            <a href="#" class="border">Gift Cards</a>
+            <a href="#" class="border">Sell</a>
+        </div>
+        <a href="#" class="panel-deals border">
+            Shop deals in Electronics
+        </a>
+    </div>
+
+    <!-- Hero Section with Carousel -->
+    <div class="hero-section">
+        <div class="hero-carousel-container">
+            <img src="https://via.placeholder.com/1500x600/FF9900/FFFFFF?text=Hero+Image+1" alt="Hero Image 1" class="hero-carousel-img active">
+            <img src="https://via.placeholder.com/1500x600/FFAA00/FFFFFF?text=Hero+Image+2" alt="Hero Image 2" class="hero-carousel-img">
+            <img src="https://via.placeholder.com/1500x600/FFBB00/FFFFFF?text=Hero+Image+3" alt="Hero Image 3" class="hero-carousel-img">
+            <!-- Navigation arrows -->
+            <button class="carousel-btn prev-btn">❮</button>
+            <button class="carousel-btn next-btn">❯</button>
+            <!-- Carousel indicators (dots) -->
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- First Row -->
+        <div class="section-grid">
+            <div class="card">
+                <h3>Shop gifts by price</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div style="color: white; padding: 20px; font-size: 24px;">Under $25</div>
+                    </div>
+                    <div class="card-item" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div style="color: white; padding: 20px; font-size: 24px;">$25-$50</div>
+                    </div>
+                    <div class="card-item" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div style="color: white; padding: 20px; font-size: 24px;">$50-$100</div>
+                    </div>
+                    <div class="card-item" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div style="color: white; padding: 20px; font-size: 24px;">$100+</div>
+                    </div>
+                </div>
+                <a href="#" class="card-link">Browse all gifts by price ›</a>
+            </div>
+
+            <div class="card">
+                <h3>Fashion trends you like</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: #c41e3a;"></div>
+                    <div class="card-item" style="background: #8b4513;"></div>
+                    <div class="card-item" style="background: #556b2f;"></div>
+                    <div class="card-item" style="background: #4b0082;"></div>
+                </div>
+                <a href="#" class="card-link">Explore more ›</a>
+            </div>
+
+            <div class="card">
+                <h3>Refresh your space</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: #8b4513;"></div>
+                    <div class="card-item" style="background: #deb887;"></div>
+                    <div class="card-item" style="background: #d2691e;"></div>
+                    <div class="card-item" style="background: #cd853f;"></div>
+                </div>
+                <a href="#" class="card-link">See more ›</a>
+            </div>
+
+            <div class="card">
+                <h3>Holiday Bigger surprises</h3>
+                <div style="background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%); height: 250px; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px; font-weight: bold;">
+                    Holiday Deals
+                </div>
+                <a href="#" class="card-link">Shop holiday deals ›</a>
+            </div>
+        </div>
+
+        <!-- Horizontal Scroll Sections -->
+        <div class="scroll-section">
+            <h3>Top picks for Pakistan</h3>
+            <div class="scroll-container">
+                <div class="scroll-item">
+                    <div style="background: #2c3e50; height: 200px; border-radius: 4px;"></div>
+                    <p>Gaming Console</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #34495e; height: 200px; border-radius: 4px;"></div>
+                    <p>Laptop Stand</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #7f8c8d; height: 200px; border-radius: 4px;"></div>
+                    <p>Wireless Mouse</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #95a5a6; height: 200px; border-radius: 4px;"></div>
+                    <p>Keyboard</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #ecf0f1; height: 200px; border-radius: 4px;"></div>
+                    <p>Monitor</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #bdc3c7; height: 200px; border-radius: 4px;"></div>
+                    <p>Headphones</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-section">
+            <h3>Popular items this season</h3>
+            <div class="scroll-container">
+                <div class="scroll-item">
+                    <div style="background: #3498db; height: 200px; border-radius: 4px;"></div>
+                    <p>Best Sellers</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #e74c3c; height: 200px; border-radius: 4px;"></div>
+                    <p>Electronics</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #2ecc71; height: 200px; border-radius: 4px;"></div>
+                    <p>Home & Kitchen</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #f39c12; height: 200px; border-radius: 4px;"></div>
+                    <p>Fashion</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #9b59b6; height: 200px; border-radius: 4px;"></div>
+                    <p>Beauty</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #1abc9c; height: 200px; border-radius: 4px;"></div>
+                    <p>Sports</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- More Grid Sections -->
+        <div class="section-grid">
+            <div class="card">
+                <h3>Shop by category</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: #e74c3c;"></div>
+                    <div class="card-item" style="background: #c0392b;"></div>
+                    <div class="card-item" style="background: #d35400;"></div>
+                    <div class="card-item" style="background: #e67e22;"></div>
+                </div>
+                <a href="#" class="card-link">See more categories ›</a>
+            </div>
+
+            <div class="card">
+                <h3>Best more gift ideas</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: #16a085;"></div>
+                    <div class="card-item" style="background: #27ae60;"></div>
+                    <div class="card-item" style="background: #2980b9;"></div>
+                    <div class="card-item" style="background: #8e44ad;"></div>
+                </div>
+                <a href="#" class="card-link">Explore gift ideas ›</a>
+            </div>
+
+            <div class="card">
+                <h3>Shop holiday gift guides</h3>
+                <div class="card-grid">
+                    <div class="card-item" style="background: #1abc9c;"></div>
+                    <div class="card-item" style="background: #3498db;"></div>
+                    <div class="card-item" style="background: #9b59b6;"></div>
+                    <div class="card-item" style="background: #e91e63;"></div>
+                </div>
+                <a href="#" class="card-link">See all guides ›</a>
+            </div>
+
+            <div class="card">
+                <h3>New home arrivals under $50</h3>
+                <div style="background: #ecf0f1; height: 250px; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 18px; color: #7f8c8d;">Home Decor</div>
+                </div>
+                <a href="#" class="card-link">Shop now ›</a>
+            </div>
+        </div>
+
+        <!-- Additional Sections -->
+        <div class="scroll-section">
+            <h3>Gaming: new launches</h3>
+            <div class="scroll-container">
+                <div class="scroll-item">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; border-radius: 4px;"></div>
+                    <p>Gaming Headset</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 200px; border-radius: 4px;"></div>
+                    <p>Controller</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 200px; border-radius: 4px;"></div>
+                    <p>Gaming Chair</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); height: 200px; border-radius: 4px;"></div>
+                    <p>VR Headset</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-section">
+            <h3>Most-loved travel essentials</h3>
+            <div class="scroll-container">
+                <div class="scroll-item">
+                    <div style="background: #f39c12; height: 200px; border-radius: 4px;"></div>
+                    <p>Luggage</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #e67e22; height: 200px; border-radius: 4px;"></div>
+                    <p>Travel Pillow</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #d35400; height: 200px; border-radius: 4px;"></div>
+                    <p>Backpack</p>
+                </div>
+                <div class="scroll-item">
+                    <div style="background: #e74c3c; height: 200px; border-radius: 4px;"></div>
+                    <p>Travel Adapter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Get to Know Us</h4>
+                <ul>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li><a href="#">Sell on Amazon</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Amazon Payment Products</h4>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Let Us Help You</h4>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                    <li><a href="#">Returns & Replacements</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+</body>
+</html>
